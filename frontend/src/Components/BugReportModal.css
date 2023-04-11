@@ -1,0 +1,115 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-28%, -50%);
+  z-index: 1040;
+  border: 3px solid #8d8f98;
+  border-radius: 10px;
+  background-color: #121212;
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 600px;
+}
+
+.modal-label {
+  font-size: 22px;
+  color: white;
+}
+
+.modal-inner-container {
+  color: #e5e5e4;
+  text-align: center;
+}
+
+.bug-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bug-form-textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  width: 400px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+  background-color: #3f414d;
+  color: #e5e5e4;
+  font-size: 16px;
+}
+
+.tips-for-submitting {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: #e5e5e4;
+  margin: 30px 0;
+  text-align: left;
+}
+
+.open-modal-button {
+  transition: all 150ms ease-in-out;
+  display: flex;
+  text-align: center;
+  background-color: #202123;
+  color: #dcdce4;
+  border: 1px solid #202123;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  padding-left: 7px;
+  padding-right: 170px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: -5px;
+  margin-right: -5px;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 355px;
+}
+
+.submit-bug-button {
+  transition: all 150ms ease-in-out;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1.4px solid #8d8f98;
+  font-size: 16px;
+}
+
+.bug-svg {
+  min-height: 16px;
+  min-width: 16px;
+  max-height: 16px;
+  max-width: 16px;
+  margin-right: 10px;
+  margin-top: 1px;
+}
+
+.submit-bug-button:hover {
+  background-color: #343541;
+  border: 1.4px solid #343541;
+}
+
+.open-modal-button:hover {
+  background-color: #343541;
+  border-color: #343541;
+}
+
+.open-modal-button:active,
+.submit-bug-button:active {
+  opacity: 0.2;
+}
+
+@media (min-width: 1024px) {
+}

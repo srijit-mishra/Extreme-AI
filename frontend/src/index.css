@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #343541;
+  color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::-webkit-scrollbar {
+  background-color: #343541;
+  width: 0.7em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #565869;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b3befe;
+  background-clip: content-box;
+}

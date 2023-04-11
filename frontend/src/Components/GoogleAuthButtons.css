@@ -1,0 +1,52 @@
+.google-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #7966f6;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 200px;
+  background: linear-gradient(265.27deg, #0000 20.55%, #b3befe 94.17%);
+  background-color: #7966f6;
+  transition: all 150ms ease-in-out;
+  color: white;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.google-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  z-index: 100;
+}
+
+.google-button:hover {
+  background-color: #9f4cff;
+  scale: 1.04;
+  cursor: pointer;
+}
+
+.google-button:active {
+  opacity: 0.2;
+}
+
+@media (min-width: 1024px) {
+  .google-button-container {
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .google-button {
+    font-size: 16px;
+  }
+}

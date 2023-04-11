@@ -1,0 +1,28 @@
+.not-subscribed-heading {
+  font-size: 1.4em;
+  transition: all 0.2s ease-in-out;
+}
+
+.not-subscribed-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.not-subscribed-heading:hover {
+  cursor: pointer;
+  scale: 1.06;
+  text-decoration: underline;
+}
+
+.not-subscribed-heading:active {
+  opacity: 0.2;
+}
+
+@media (min-width: 1024px) {
+  .not-subscribed-heading {
+    font-size: 2em;
+  }
+}
